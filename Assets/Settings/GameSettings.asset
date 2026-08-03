@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d42767a95899ae43b04ed8c9ffbef3e, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  _player:
+    _moveSpeed: 5
+  _mine:
+    _gridRows: 8
+    _gridCols: 8
+    _gridSpacing: 1.2
+    _mineDurationPerOre: 1
+    _minerNPCMineDurationPerOre: 2
+    _simultaneousMineCount: 1
+    _orePlacementRespawnSeconds: 5
+    _mineReachRadius: 0.75
+  _processor:
+    _tickInterval: 1
+    _oreConsumedPerHandcuff: 1
+    _inputCapacity: 30
+    _outputCapacity: 30
+  _desk:
+    _handcuffCapacity: 30
+    _deskNPCStackMax: 8
+    _deskNPCDepositInterval: 0.2
+  _npc:
+    _prisonerMoveSpeed: 3
+    _workerMoveSpeed: 4
+    _spawnIntervalSeconds: 2
+    _maxConcurrent: 3
+    _handcuffDemandMin: 1
+    _handcuffDemandMax: 3
+    _minerSpawnCount: 3
+  _jail:
+    _initialCapacity: 20
+    _capacityMultiplier: 2
+    _maxCapacity: 100
+    _gridRows: 10
+    _gridCols: 10
+    _gridSpacing: 0.8
+    _jailUpgradeBaseCost: 50
+    _scaleUpDuration: 0.3
+  _upgrade:
+    _drillUpgradeCost: 20
+    _drillUpgradeMineDuration: 0.1
+    _tractorUpgradeCost: 50
+    _minerSpawnCost: 50
+    _deskNPCSpawnCost: 50
+  _ui:
+    _maxTextShowDelay: 1
+  _moneyPile:
+    _moneyPerBlock: 10
