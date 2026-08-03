@@ -4,6 +4,10 @@ Arcade Idle 하이퍼캐주얼 프로토타입. 5일(유효 약 30시간) 안에
 
 **Unity 2022.3.62f2 LTS** · 720x1280 portrait · Built-in RP
 
+> **AI 코딩 도구를 적극 활용해 개발한 프로젝트다.** 구현·문서화에 Claude Code와 Claude를
+> 사용했고, 도구별 역할 분담과 사람이 판단한 지점은 [`docs/ai-usage.md`](docs/ai-usage.md)에
+> 정리했다.
+
 <a href="https://youtu.be/VYkRC-bX1qs">
   <img src="https://img.youtube.com/vi/VYkRC-bX1qs/maxresdefault.jpg" width="480" alt="gameplay">
 </a>
