@@ -104,3 +104,30 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ---------------------------------------------------------------------------
+# Third-party assets excluded from redistribution
+# ---------------------------------------------------------------------------
+# These packages are licensed under the Standard Unity Asset Store EULA, which
+# permits use inside a built product but not redistribution as extractable
+# source files. See docs/third-party-assets.md for re-installation steps.
+/[Aa]ssets/Floreswa/
+/[Aa]ssets/Floreswa.meta
+/[Aa]ssets/JC_StylizedRocks_Lite/
+/[Aa]ssets/JC_StylizedRocks_Lite.meta
+
+# ---------------------------------------------------------------------------
+# Not for publication
+# ---------------------------------------------------------------------------
+ai-logs/
+design/gdd.md
+design/reference-analysis.md
+design/handoff-*.md
+tools/export-claude-session.py
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
