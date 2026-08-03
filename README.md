@@ -4,7 +4,11 @@ Arcade Idle 하이퍼캐주얼 프로토타입. 5일(유효 약 30시간) 안에
 
 **Unity 2022.3.62f2 LTS** · 720x1280 portrait · Built-in RP
 
-![gameplay](docs/gameplay.gif)
+<a href="https://youtu.be/VYkRC-bX1qs">
+  <img src="https://img.youtube.com/vi/VYkRC-bX1qs/maxresdefault.jpg" width="480" alt="gameplay">
+</a>
+
+▶️ **[전체 플레이 영상 (YouTube)](https://youtu.be/VYkRC-bX1qs)** — 이동 · 채굴 · 가공 · 판매 · 업그레이드 한 사이클
 
 ---
 
